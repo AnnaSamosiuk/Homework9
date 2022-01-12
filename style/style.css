@@ -111,6 +111,7 @@ hr {
     margin-left: 20px;
     margin-top: 41px;
     float: left;
+    text-decoration: none;
 }
 
 .card a {
@@ -216,7 +217,7 @@ hr {
 
 .card_img {
     width: 125px;
-    height: 166;
+    height: 166px;
     margin-top: 25px;
 }
 .card_text {
@@ -305,10 +306,10 @@ hr {
     color: #FFFFFF;
 }
 
-/* .action_image {
-    display: inline-block;
-    margin-left: 50px;   
-} */
+input.button_style::placeholder {
+    color: #000000;
+    }
+    
 
 .other a {
     font-size: 14px;
@@ -364,7 +365,10 @@ hr {
 }
 
 .social img {
-    margin-right: 16px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline;
+
 }
 
 .social-network li {
@@ -373,7 +377,6 @@ hr {
 
 .button-bottom {
     color: #EFEFEF;
-    padding: 0 8px 0 11px;
     text-decoration: none;
     border-radius: 50%;
     border-style: solid;
